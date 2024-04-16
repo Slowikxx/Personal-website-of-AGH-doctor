@@ -8,6 +8,10 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
+			fontFamily: {
+				piazzolla: ['Piazzolla', 'serif'],
+				petrona: ['Petrona', 'serif'],
+			},
 			colors: {
 				lightBlue: '#5B93C6',
 			},
