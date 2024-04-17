@@ -14,9 +14,13 @@ const config: Config = {
 			},
 			colors: {
 				lightBlue: '#5B93C6',
+				darkBlue: '#24496B',
+				darkBg: '#282828',
+				lightBg: '#DEE4E7',
 			},
 		},
 	},
 	plugins: [],
+	darkMode: 'class',
 };
 export default config;

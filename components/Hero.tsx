@@ -5,22 +5,23 @@ import { BsDoorOpen } from 'react-icons/bs';
 import { MdMailOutline } from 'react-icons/md';
 import { HiOutlineChatBubbleLeftRight } from 'react-icons/hi2';
 import Button from './Button';
+import Link from 'next/link';
 
 const Logo = () => {
 	return (
-		<div className="flex flex-col w-[270px] ">
+		<Link href="/" className="flex flex-col w-[270px] ">
 			<h1 className="font-petrona text-3xl text-white">
 				<span className="text-lightBlue">dr</span> inż.{' '}
 				<span className="text-lightBlue">Juliusz</span> Godek
 			</h1>
 			<div className="w-[184px] h-[2px] mt-1 rounded-xl bg-lightBlue self-end"></div>
-		</div>
+		</Link>
 	);
 };
 
 const Hero = () => {
 	return (
-		<div className="bg-dark w-full h-screen pl-20 pt-8">
+		<div id="/" className="bg-dark w-full h-screen pl-20 pt-8 overflow-hidden">
 			<Image
 				src={darkBlob}
 				alt="light-blob"
@@ -31,9 +32,9 @@ const Hero = () => {
 			<div className="flex flex-row w-full justify-between pr-20">
 				<Logo />
 				<div className="flex gap-10 flex-row">
-					<Button text={'NTwK'} />
-					<Button text={'EiT'} />
-					<Button text={'Fotografie'} />
+					<Button text={'NTwK'} id="ntwk" />
+					<Button text={'EiT'} id="eit" />
+					<Button text={'Fotografie'} id="fotografie" />
 				</div>
 			</div>
 			<div className="flex flex-col mt-64 ml-20 gap-10 font-medium font-piazzolla">
