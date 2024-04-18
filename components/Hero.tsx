@@ -25,9 +25,9 @@ const Hero = () => {
 			<Image
 				src={darkBlob}
 				alt="light-blob"
-				className="absolute left-0 top-0"
-				width={256}
-				height={252}
+				className="absolute -left-28 -top-28"
+				width={400}
+				height={402}
 			/>
 			<div className="flex flex-row w-full justify-between pr-20">
 				<Logo />
@@ -62,7 +62,7 @@ const Hero = () => {
 			<Image
 				src={heroPhoto}
 				alt="hero-image"
-				className="absolute bottom-0 -right-8"
+				className="absolute bottom-0 -right-8 overflow-hidden"
 			/>
 		</div>
 	);
