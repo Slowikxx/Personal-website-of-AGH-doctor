@@ -5,7 +5,10 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
 const Photography = () => {
 	return (
-		<div className="flex w-full h-screen overflow-hidden bg-darkBg  flex-col">
+		<div
+			id="fotografie"
+			className="flex w-full h-screen overflow-hidden bg-darkBg  flex-col"
+		>
 			<div className="relative w-full pt-20 pl-24">
 				<div className="w-32 h-12 bg-darkBlue " />
 				<h1 className="absolute top-20 left-32 font-piazzolla text-white font-bold text-5xl">

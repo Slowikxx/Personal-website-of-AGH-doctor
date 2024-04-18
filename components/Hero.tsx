@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 const Logo = () => {
 	return (
-		<Link href="/" className="flex flex-col w-[270px] ">
+		<Link href="/" className="flex flex-col w-[270px] cursor-pointer">
 			<h1 className="font-petrona text-3xl text-white">
 				<span className="text-lightBlue">dr</span> inż.{' '}
 				<span className="text-lightBlue">Juliusz</span> Godek
